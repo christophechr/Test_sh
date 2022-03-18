@@ -9,5 +9,8 @@ cp -r assets/ ~/.china
 echo alias runsound="aplay ~/.china/sound.mp3" >> $HOME/.bashrc
 echo runsound >> $HOME/.bashrc
 
+#waiting end of music
+watch -n 87
+
 #reload bash
 exec bash
